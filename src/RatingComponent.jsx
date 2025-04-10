@@ -5,7 +5,6 @@ export default function RatingComponent({category, color}){
         green: "bg-LightGreenTeal text-GreenTeal",
         blue: "bg-LightCobaltBlue text-CobaltBlue"
     };
-    console.log(category.icon)
     return (
         <div className={`flex justify-between rounded-lg items-center p-3 font-hankenGrotesk ${colorsList[color]}`}>
 
